@@ -121,7 +121,7 @@ export default {
         }
     },
     mounted(){
-        fetch(`https://api.github.com/gists/${this.id}`)
+        fetch(`https://gist.github.com/shivam-poniya/6e2254e27c0572e49e04ac51bf0ce2a6.js`)
             .then(response => response.json())
             .then(data => this.setValues(data))
             
